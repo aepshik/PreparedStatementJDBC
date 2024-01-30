@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Hello</title>
+</head>
+<body>
+<p>Hello!</p>
+<a href="/goodbye">Say goodbye</a> or <a href="/exit">Exit</a> or <a href="/first/hello?name=Tom&surname=Bush">Request with par</a>
+<p th:text="${message}"></p>
+</body>
+</html>
